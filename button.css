@@ -1,9 +1,11 @@
 html {
-    min-height: 500px;
-    min-width: 400px;
-    
-    
+    height: 500px;
+    width: 500px;
+}
 
+body {
+    width: 100%;
+    height: 100%;
 }
 
 button {
@@ -31,4 +33,8 @@ button.current {
 
 .content {
     font-family: 'Source Code Pro', monospace;
+}
+
+#project-text {
+    width: 100%;
 }

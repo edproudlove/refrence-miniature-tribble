@@ -1,4 +1,4 @@
-
+/*
 // Initialize button with user's preferred color
 let changeColor = document.getElementById("changeColor");
 
@@ -23,3 +23,5 @@ changeColor.addEventListener("click", async () => {
       document.body.style.backgroundColor = color;
     });
   }
+
+  */
