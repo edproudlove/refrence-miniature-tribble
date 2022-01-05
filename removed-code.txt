@@ -1,0 +1,42 @@
+<div class="test-section-box">
+            <h3>
+                Topics
+            </h3>
+            <textarea > 
+
+            </textarea>
+
+            <hr>
+
+          </div>
+
+
+          <div class="test-section-box">
+            <h3>
+                Notes              
+            </h3>
+            <textarea > 
+
+            </textarea>
+            <hr>
+
+          </div>
+
+
+
+          <div class="test-section-box">
+            <h3>
+                Refrences              
+            </h3>
+            <textarea > 
+
+            </textarea>
+            <hr>
+
+          </div>
+
+      </div>
+      
+      
+      
+    <button id="changeColor"></button>

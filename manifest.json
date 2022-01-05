@@ -1,0 +1,13 @@
+{
+    "name": "Refrence Helper",
+    "description": "A Chrome extenstion to help users to write and correctly refrence their work.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+    "default_popup": "popup.html"
+    }
+  }
