@@ -9,7 +9,7 @@
     "content_scripts": [
        {
          "matches": ["<all_urls>"],
-        "js" :["main.js", "database.js", "popup.js"]
+        "js" :["main.js", "database.js"]
         }
     ],
     "permissions": ["storage", "activeTab", "scripting"],

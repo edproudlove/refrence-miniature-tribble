@@ -140,3 +140,20 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log('Default background color set to %cgreen', `color: ${color}`);
   console.log('This is another test for the console')
 });
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+
+    import { initializeApp } from 'firebase/app'
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+
+// Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+
+
+// Initialize Firebase

@@ -2,9 +2,15 @@ let projectString = "";
 
 let projectTextbox = document.getElementById("project-text");
 
-projectTextbox.addEventListener("change", updateValue);
+try {
+    projectTextbox.addEventListener("change", updateValue);
+} catch {
+    console.log("Format of Url Error")
+}
+
 
 function updateValue(str) {
+    //this updates the string upon pressing enter or clicking off the textbox
     projectString = str.target.value;
     console.log(projectString)
     //go to database
