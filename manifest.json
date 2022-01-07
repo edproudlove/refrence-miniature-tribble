@@ -4,11 +4,20 @@
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "database.js"
       },
+    "content_scripts": [
+       {
+         "matches": ["<all_urls>"],
+        "js" :["main.js", "database.js", "popup.js"]
+        }
+    ],
     "permissions": ["storage", "activeTab", "scripting"],
     "action": {
     "default_popup": "popup.html"
     },
-    "content_security_prolicy": "script-src 'self' https://www.gstatic.com/ "
+    "content_security_policy": {
+      "extenstion_pages": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+
+    }
   }
